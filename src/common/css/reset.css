@@ -1,0 +1,38 @@
+html{
+	background: linear-gradient(#210301, #141414 10%);
+}
+span {
+	display: block;
+}
+img {
+	vertical-align: middle;
+}
+button::after {
+	border: none;
+}
+button:hover {
+	background: none;
+}
+uni-scroll-view .uni-scroll-view::-webkit-scrollbar {
+	display: none;
+	width: 0 !important;
+	height: 0 !important;
+	-webkit-appearance: none;
+	background: transparent;
+	color: transparent;
+}
+::-webkit-scrollbar {
+	display: none;
+	width: 0;
+	height: 0;
+	color: transparent;
+}
+
+.no-data {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 5.3rem 0;
+	font-size: 1rem;
+	color: #fff;
+}
