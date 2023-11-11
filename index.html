@@ -1,50 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-
-#videos::-webkit-media-controls-fullscreen-button {
-    display: none;
-}
-#videos::-webkit-media-controls-play-button {
-    display: none;
-}
-#videos::-webkit-media-controls-timeline {
-    display: none;
-}
-#videos::-webkit-media-controls-current-time-display{
-    display: none;            
-}
-#videos::-webkit-media-controls-time-remaining-display {
-    display: none;            
-}
-#videos::-webkit-media-controls-mute-button {
-    display: none;            
-}
-#videos::-webkit-media-controls-toggle-closed-captions-button {
-    display: none;            
-}
-#videos::-webkit-media-controls-volume-slider {
-    display: none;            
-}
-#videos::-webkit-media-controls-enclosure{ 
-    display: none;
-}
+      #videos::-webkit-media-controls-fullscreen-button {
+        display: none;
+      }
+      #videos::-webkit-media-controls-play-button {
+        display: none;
+      }
+      #videos::-webkit-media-controls-timeline {
+        display: none;
+      }
+      #videos::-webkit-media-controls-current-time-display {
+        display: none;
+      }
+      #videos::-webkit-media-controls-time-remaining-display {
+        display: none;
+      }
+      #videos::-webkit-media-controls-mute-button {
+        display: none;
+      }
+      #videos::-webkit-media-controls-toggle-closed-captions-button {
+        display: none;
+      }
+      #videos::-webkit-media-controls-volume-slider {
+        display: none;
+      }
+      #videos::-webkit-media-controls-enclosure {
+        display: none;
+      }
     </style>
-</head>
-<body>
-  <div>
-    111
-  </div>
-    <video id="video" controls="" preload="auto" x5-playsinline height="150" width="300">
+  </head>
+  <body>
+    <div>222</div>
+    <video
+      id="video"
+      controls=""
+      preload="auto"
+      x5-video-player-type='h5' 
+      x5-video-player-fullscreen='true' 
+      playsinline 
+      webkit-playsinline
+      height="150"
+      width="300"
+    >
       <source src="./video/gaoxiao1-ac114ff5 copy.mp4" type="video/mp4" />
     </video>
 
-    <video id="videos" controls="" preload="auto" x5-video-player-type="h5-page" height="150" width="300">
+    <video
+      id="videos"
+      controls=""
+      preload="auto"
+      playsinline='true' webkit-playsinline='true'
+      height="150"
+      width="300"
+    >
       <source src="./video/gaoxiao1-ac114ff5 copy.mp4" type="video/mp4" />
     </video>
-</body>
+  </body>
 </html>
